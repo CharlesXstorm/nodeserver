@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "name": "firstnodeapp",
+  "version": "1.0.0",
+  "description": "nodeapp",
+  "main": "nodeapp.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node response.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CharlesXstorm/nodeserver.git"
+  },
+  "author": "charles ukadike",
+  "license": "ISC"
+}
