@@ -7,7 +7,7 @@ const routeHandler = (req,res) => {
     const method = req.method;
 
     if (url === '/') {
-        res.write("<h1>Enter Your Short Message Here</h1>")
+        res.write("<h1>Enter Your Request Message Here</h1>")
         res.write("<form action='/message' method='POST'>")
         res.write("<textarea name='message' rows='4' cols='50'>send a message to CharlesXstorm</textarea><br>")
         //res.write("<br>")
